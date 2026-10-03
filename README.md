@@ -38,12 +38,11 @@ This repo holds the **Altium Designer** project for the Snippet board. The displ
 ### 📝 Schematic
 - [x] 🏗️ Set up the Altium project
 - [x] 🧠 Place and annotate the STM32F303RET6 MCU (U1)
-- [ ] 🔋 Power input: +12 V in, regulated down to 3.3 V (LDO or buck)
-- [ ] 🧲 Decoupling caps on every VDD/VDDA pin (100 nF each + bulk)
-- [ ] 🎚️ VDDA filtering (ferrite bead + caps)
-- [ ] ⏱️ HSE crystal (8 MHz) on PF0/PF1, plus an optional 32.768 kHz LSE on PC14/PC15
-- [ ] 🔁 Reset circuit (pull-up + cap + button) on NRST
-- [ ] 🥾 BOOT0 pull-down (with an optional jumper for the bootloader)
+- [x] 🔋 Power input: +5 V in, regulated down to 3.3 V (LDO or buck)
+- [x] 🧲 Decoupling caps on every VDD/VDDA pin (100 nF each + bulk)
+- [x] 🎚️ VDDA filtering (ferrite bead + caps)
+- [x] 🔁 Reset circuit (cap + button) on NRST
+- [ ] 🥾 BOOT0 switch integrated
 - [ ] 🐞 SWD debug header (SWDIO/PA13, SWCLK/PA14, NRST, 3V3, GND)
 - [ ] 🔌 USB connector to the PC on PA11/PA12, with ESD protection
 - [ ] 🖥️ Display connector (SPI and control lines)
