@@ -38,7 +38,7 @@ This repo holds the **Altium Designer** project for the Snippet board. The displ
 ### 📝 Schematic
 - [x] 🏗️ Set up the Altium project
 - [x] 🧠 Place and annotate the STM32F303RET6 MCU (U1)
-- [x] 🔋 Power input: +5 V in, regulated down to 3.3 V (LDO or buck)
+- [ ] 🔋 Power input: +12 V in, regulated down to 3.3 V (LDO or buck)
 - [ ] 🧲 Decoupling caps on every VDD/VDDA pin (100 nF each + bulk)
 - [ ] 🎚️ VDDA filtering (ferrite bead + caps)
 - [ ] ⏱️ HSE crystal (8 MHz) on PF0/PF1, plus an optional 32.768 kHz LSE on PC14/PC15
