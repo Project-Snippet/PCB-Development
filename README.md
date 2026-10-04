@@ -43,7 +43,8 @@ This repo holds the **Altium Designer** project for the Snippet board. The displ
 - [x] 🎚️ VDDA filtering (ferrite bead + caps)
 - [x] 🔁 Reset circuit (cap + button) on NRST
 - [x] 🥾 BOOT0 switch integrated
-- [ ] 🐞 SWD debug header (SWDIO/PA13, SWCLK/PA14, NRST, 3V3, GND)
+- [x] ⏱️ Added external oscillator
+- [x] 🐞 SWD debug header (SWDIO/PA13, SWCLK/PA14, NRST, 3V3, GND)
 - [ ] 🔌 USB connector to the PC on PA11/PA12, with ESD protection
 - [ ] 🖥️ Display connector (SPI and control lines)
 - [ ] 💡 Status LED(s) and user button(s)
